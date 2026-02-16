@@ -245,26 +245,46 @@ my_lists.append("as")
 
 print(my_lists)
 #####remove from the list#######
-my_lists.remove("12")
-print(my_lists)
+# my_lists.remove("12")
+# print(my_lists)
 
-#######insert in the list#####
+# #######insert in the list#####
 
-my_lists.insert(2,1223)
-print(my_lists)
+# my_lists.insert(2,1223)
+# print(my_lists)
 
-#######pop the element#####
+# #######pop the element#####
 
-my_lists.pop()
-print(my_lists)
+# my_lists.pop()
+# print(my_lists)
 
-###### remove by the index#####
+# ###### remove by the index#####
 
-del my_lists[0]
-print(my_lists)
+# del my_lists[0]
+# print(my_lists)
 
 
+#######Length of list########
 
+listLen=len(my_lists)
+print(listLen)
+
+
+#######find number in element  the list########
+
+count=my_lists.count("as")
+print(count)
+
+#######find index of elemet###########
+
+pos=my_lists.index("12")
+print(pos)
+
+#############sort the list###########
+new_list=[2,4,6,2,58,2,5,4,3,25,85]
+
+list2=new_list.sort
+print(list2)
 
 
 
