@@ -10,6 +10,8 @@
 # Question 9: Write a Python program that checks if a given list contains any negative numbers. If it does, print "List contains negative numbers".
 # Question 10: Write a Python program that checks if a given word is a palindrome. If it is, print "Palindrome".
 
+# git push -u origin main
+
 # 1)
 num=12
 if(num%2==0):
@@ -46,4 +48,49 @@ if(char =='a' or char=='e' or char=='i' or char=='o' or char=='u' ):
     print("vowel")
 else:
     print("not vowel")
+
+# 6)
+num=101
+if(num>100):
+    print("Greater than 100")
+else:
+    print("Less than 100")
+
+# 7
+
+name ="prajyot"
+if(len(name)==0):
+    print("String is empty")
+else:
+    print("String is not empty") 
+
+
+# 8
+num=35
+if(num%5==0 and num%7==0):
+    print("number is divisible by 5 and 7")
+else:
+    print("number is not divisible by 5 and 7")
+
+# 9
+list=[1,2,3,4,5,7,8,-1]
+
+for i in list:
+    if(i<0):
+        print(f"list contain negative number{i}")
+
+
+
+# 10
+
+num=121
+
+num_str = str(num)
+reversed_str = num_str[::-1]
+# print(reversed_str)
+
+if (reversed_str==num_str):
+    print("number is Palindrome")
+else:
+    print("number is not palindrome")
 
